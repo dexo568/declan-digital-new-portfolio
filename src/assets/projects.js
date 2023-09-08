@@ -142,7 +142,7 @@ const projects = [
         client: 'T-Mobile',
         title: 'Overwatch MVP',
         description: 'T-Mobile partnered with Blizzard to sponsor the Overwatch World Cup, the Blizzcon culmination of 8 months of competitive Overwatch play. As part of their sponsorship, the T-Mobile MVP award was created, with the winner chosen by fans. Twitch and Twitter users could vote using the TMobileMVP command/hashtag.<br/><br/>Two different bots, for Twitch and Twitter respectively, worked to record votes and send them to a Firebase backend, which would then generate a live results panel for use by esports and broadcast staff, who would then add them to branded graphics and display them on-stream. At the end of the weekend, the winner was crowned live onstream and presented with the MVP trophy.',
-        stats: [{ header: "Overwatch World Cup", subheader: "Competition" }, { header: "69030", subheader: "Votes" }, { header: "Winner", subheader: "Hish Score Entries" }],
+        stats: [{ header: "Overwatch World Cup", subheader: "Competition" }, { header: "69030", subheader: "Votes" }, { header: "XQC", subheader: "Winner" }],
         technologies: ['javascript', 'node'],
         images: [{src: '/projects/overwatchMVP/ad.png', alt: 'Promotional posted showing Reinhardt and "#TMOBILEMVP" on a magenta background.'},{src: '/projects/overwatchMVP/standings.jpeg', alt: 'Overwatch Stream screenshot howing current standings of players.'},{src: '/projects/overwatchMVP/xqc.jpeg', alt: 'Picture of XQC receiving the MVP trophy.'}]
     },

@@ -6,7 +6,7 @@
         <div class="col-xs-12 col-lg-8">
             <h1 class="about__header">Hey there!</h1>
             <p class="about__subheader">I'm Declan, a jack-of-all-trades developer and public transit enthusiast. Most of my professional life has been in the agency world, so I've gotten the chance to work on a wide variety of projects in an array of languages. My primary focus areas are web development, promotional video games, and experiential activations. I've collaborated with some very cool clients, like Comedy Central, Twitch, and T-Mobile, just to name a few, and I'm always excited about new clients and new projects.</p>
-            <img src="meCrop.png" class="about__image">
+            <img src="/meCrop.png" class="about__image">
         </div>
     </section>
 </template>

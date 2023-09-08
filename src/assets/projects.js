@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 0,
-        href: {destination: 'www.google.com', text: 'View Site'},
+        href: {destination: 'https://www.usaa.com/inet/wc/fort-innovate?akredirect=true', text: 'Companion Site'},
         tags: ['Game Development', 'Experiential'],
         thumbnail: {
             src: '/projects/fortInnovate/thumb.png',
@@ -27,7 +27,7 @@ const projects = [
     },
     {
         id: 1,
-        href: {destination: 'www.google.com', text: 'View Site'},
+        href: {destination: 'https://forhumanity.yale.edu', text: 'Visit Site'},
         tags: ['Web Development', 'Higher Ed'],
         thumbnail: {
             src: '/projects/yale/thumb.png',
@@ -46,7 +46,7 @@ const projects = [
     },
     {
         id: 2,
-        href: {destination: 'www.google.com', text: 'View Site'},
+        href: {destination: 'https://mydestinationmatch.com', text: 'Visit Site'},
         tags: ['Game Development', 'Web Development', 'Experiential'],
         thumbnail: {
         src: '/projects/destinationMatch/thumb.png',
@@ -61,7 +61,7 @@ const projects = [
     },
     {
         id: 3,
-        href: {destination: 'www.google.com', text: 'View Site'},
+        href: {destination: 'https://www.theverge.com/circuitbreaker/2018/8/14/17690362/bud-light-wi-fi-connected-smart-fridge-cleveland-brown-losing-streak-win', text: 'Press Coverage'},
         tags: ['Experiential'],
         thumbnail: {
             src: '/projects/brownsFridge/thumb.png',
@@ -76,7 +76,6 @@ const projects = [
     },
     {
         id: 4,
-        href: {destination: 'www.google.com', text: 'View Site'},
         tags: ['Web Development'],
         thumbnail: {
         src: '/projects/spAndMe/thumb.png',
@@ -95,7 +94,6 @@ const projects = [
     },
     {
         id: 5,
-        href: {destination: 'www.google.com', text: 'View Site'},
         tags: ['Game Development', 'Experiential'],
         thumbnail: {
         src: '/projects/artOfInnovation/thumb.png',
@@ -114,7 +112,7 @@ const projects = [
     },
     {
         id: 6,
-        href: {destination: 'www.google.com', text: 'View Site'},
+        href: {destination: 'https://www.facebook.com/watch/?v=404256487950048', text: 'Promotional Video'},
         tags: ['Game Development', 'Web Development'],
         thumbnail: {
             src: '/projects/mascotDash/thumb.png',
@@ -133,7 +131,6 @@ const projects = [
     },
     {
         id: 7,
-        href: {destination: 'www.google.com', text: 'View Site'},
         tags: ['Experiential'],
         thumbnail: {
             src: '/projects/overwatchMVP/thumb.png',
@@ -148,7 +145,7 @@ const projects = [
     },
     {
         id: 8,
-        href: {destination: 'www.google.com', text: 'View Site'},
+        href: {destination: 'https://horizon.sandiego.edu', text: 'Visit Site'},
         tags: ['Web Development', 'Higher Ed'],
         thumbnail: {
             src: '/projects/usd/thumb.png',

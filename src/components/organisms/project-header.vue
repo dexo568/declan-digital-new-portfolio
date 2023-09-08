@@ -59,7 +59,7 @@
         <div class="col-xs-12 col-lg-7">
             <p class="project-header__description" v-html="project.description">
             </p>
-            <a class="project-header__external-link" v-if="project.href" :href="project.href.destination">
+            <a class="project-header__external-link" v-if="project.href" :href="project.href.destination" target="_blank">
                 <span>{{project.href.text}}</span>
                 <div class="project-header__external-link-icon">
                     <img src="/external-link-icon-1.png" alt="End of an arrow.">

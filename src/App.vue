@@ -18,7 +18,7 @@ onMounted(() => {
           </RouterLink>
           <div>
             <RouterLink to="/about">About</RouterLink>
-            <a href="/Declan-McKelvey-Hembree-Software-Developer.pdf">Resume</a>
+            <a href="/DeclanMckelveyHembreeSoftwareEngineer.pdf">Resume</a>
           </div>
         </nav>
       </div>

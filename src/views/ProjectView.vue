@@ -22,10 +22,10 @@ const project = projects[props.projectId];
   <main>
     <ProjectHeader :project="project" />
     <ProjectStats :project="project" />
+    <ProjectImages :project="project" />
     <TechnologyGrid
       :technologies="technologies.filter((technology) => project.technologies.indexOf(technology.slug) > -1)"
     />
-    <ProjectImages :project="project" />
     <ProjectGrid
       :projects="projects.filter((curProject) => curProject.tags.indexOf(project.tags[0]) > -1 && curProject.id != project.id).slice(0, 3)"
       header="Similar Projects"

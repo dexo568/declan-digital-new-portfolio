@@ -35,7 +35,7 @@
                             :key="tag"
                             :text="tag"
                             :forceHover="activeTags.indexOf(tag) > -1"
-                            @click="activeTags.indexOf(tag) < 0 ? activeTags.push(tag) : activeTags.splice(activeTags.indexOf(tag), 1)"
+                            @click="activeTags.indexOf(tag) < 0 ? (activeTags[0] = (tag)) : activeTags.splice(0)"
                         >
                         </ProjectLabel>
                 </div>

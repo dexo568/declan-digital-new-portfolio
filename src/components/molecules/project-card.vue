@@ -25,7 +25,7 @@
 </script>
 
 <template>
-    <RouterLink class="project-card" :to="'projects/' + project.id" target="_self" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#project-grid" :data-aos-delay="gridIndex * 50 + aosBaseDelay" :data-aos-offset="aosBaseOffset">
+    <RouterLink class="project-card" :to="'/projects/' + project.id" target="_self" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#project-grid" :data-aos-delay="gridIndex * 50 + aosBaseDelay" :data-aos-offset="aosBaseOffset">
         <div class="project-card__image-wrapper">
             <!-- <div class="project-card__labels">
                 <ProjectLabel

@@ -60,4 +60,11 @@
             display: block;
         }
     }
+
+    @media(max-width: 380px){
+        .header__header{
+            font-size: 40px;
+            line-height: 45px;
+        }
+    }
 </style>

@@ -40,7 +40,7 @@
 
     .project-stats__stat-header--small{
         font-size: 50px;
-        line-height: normal;
+        line-height: 55px;
     }
 
     .project-stats__subheader{
@@ -101,6 +101,13 @@
         .project-stats__figure{
             padding-top: 19px;
             padding-bottom: 27px;
+        }
+    }
+
+    @media(max-width: 380px){
+        .project-stats__stat-header--small{
+            font-size: 40px;
+            line-height: 45px;
         }
     }
 </style>

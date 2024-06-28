@@ -48,6 +48,7 @@
                     :gridIndex="index"
                     :aosBaseDelay="100"
                     :aosBaseOffset="solidBg ? -200 : 0"
+                    :boxBackground="project.themeColor"
                 >
                 </ProjectCard>
             </div>

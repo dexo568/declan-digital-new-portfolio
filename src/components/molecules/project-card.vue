@@ -20,11 +20,17 @@
             type: Number,
             required: false,
             default: 0
+        },
+        boxBackground: {
+            type: String,
+            required: false,
+            default: '#a7e1ff'
         }
     })
 </script>
 
 <template>
+    <div class="project-card__outer" :style="'--boxBackground: ' + boxBackground">
     <RouterLink class="project-card" :to="'/projects/' + project.id" target="_self" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#project-grid" :data-aos-delay="gridIndex * 50 + aosBaseDelay" :data-aos-offset="aosBaseOffset">
         <div class="project-card__image-wrapper">
             <!-- <div class="project-card__labels">
@@ -39,6 +45,7 @@
         <h4 class="project-card__client">{{project.client}}</h4>
         <h3 class="project-card__title">{{project.title}}</h3>
     </RouterLink>
+    </div>
 </template>
 
 <style scoped>
@@ -49,6 +56,12 @@
         padding: 10px;
         text-decoration: none;
         margin-bottom: 30px;
+    }
+
+    .project-card__outer{
+        transition: transform .25s, box-shadow .25s;
+        box-shadow: 0px 0px 0px var(--boxBackground);
+        border-radius: 20px;
     }
 
     .project-card__image-wrapper{
@@ -91,6 +104,12 @@
         margin: 0;
         margin-bottom: 23px;
         line-height: 1.23;
+    }
+
+    .project-card__outer:hover{
+        transform: translateY(-20px);
+        box-shadow: 0px 20px 0px var(--boxBackground);
+        transition-delay: 0s;
     }
 
     @media(min-width: 1200px){

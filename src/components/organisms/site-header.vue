@@ -5,7 +5,7 @@
     <section class="row header">
         <div class="col-xs-12">
             <h1 class="header__header">Declan <br class="force-space">McKelvey-<br class="force-space">Hembree</h1>
-            <p class="header__subheader">Developer. Engineer. Game Designer.</p>
+            <p class="header__subheader">Programmer. <br class="force-space">Experiential Designer. <br class="force-space">Game Developer.</p>
         </div>
     </section>
 </template>
@@ -15,7 +15,7 @@
         color: white;
         font-size: 55px;
         display: block;
-        line-height: normal;
+        line-height: 70px;
         margin: 0;
         margin-top: 204px;
         margin-bottom: 21px;

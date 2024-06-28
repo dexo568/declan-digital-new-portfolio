@@ -1,6 +1,7 @@
 const projects = [
     {
         id: 0,
+        themeColor: '#002c55',
         href: {destination: 'https://www.usaa.com/inet/wc/fort-innovate?akredirect=true', text: 'Companion Site'},
         tags: ['Game Development', 'Experiential'],
         thumbnail: {
@@ -27,6 +28,7 @@ const projects = [
     },
     {
         id: 1,
+        themeColor: '#005da2',
         href: {destination: 'https://forhumanity.yale.edu', text: 'Visit Site'},
         tags: ['Web Development', 'Higher Ed'],
         thumbnail: {
@@ -46,6 +48,7 @@ const projects = [
     },
     {
         id: 2,
+        themeColor: '#ff8d6a',
         href: {destination: 'https://mydestinationmatch.com', text: 'Visit Site'},
         tags: ['Game Development', 'Web Development', 'Experiential'],
         thumbnail: {
@@ -61,6 +64,7 @@ const projects = [
     },
     {
         id: 3,
+        themeColor: '#fb4f26',
         href: {destination: 'https://www.theverge.com/circuitbreaker/2018/8/14/17690362/bud-light-wi-fi-connected-smart-fridge-cleveland-brown-losing-streak-win', text: 'Press Coverage'},
         tags: ['Experiential'],
         thumbnail: {
@@ -76,6 +80,7 @@ const projects = [
     },
     {
         id: 4,
+        themeColor: '#d5d5d5',
         tags: ['Web Development'],
         thumbnail: {
         src: '/projects/spAndMe/thumb.png',
@@ -94,6 +99,7 @@ const projects = [
     },
     {
         id: 5,
+        themeColor: '#b41f3a',
         tags: ['Game Development', 'Experiential'],
         thumbnail: {
         src: '/projects/artOfInnovation/thumb.png',
@@ -112,6 +118,7 @@ const projects = [
     },
     {
         id: 6,
+        themeColor: '#d17739',
         href: {destination: 'https://www.facebook.com/watch/?v=404256487950048', text: 'Promotional Video'},
         tags: ['Game Development', 'Web Development'],
         thumbnail: {
@@ -131,6 +138,7 @@ const projects = [
     },
     {
         id: 7,
+        themeColor: "#f27503",
         tags: ['Experiential'],
         thumbnail: {
             src: '/projects/overwatchMVP/thumb.png',
@@ -145,6 +153,7 @@ const projects = [
     },
     {
         id: 8,
+        themeColor: "#63692d",
         href: {destination: 'https://horizon.sandiego.edu', text: 'Visit Site'},
         tags: ['Web Development', 'Higher Ed'],
         thumbnail: {

@@ -7,6 +7,8 @@ const projects = [
         thumbnail: {
             src: '/projects/fortInnovate/thumb.png',
             alt: 'Fort Innovate Logo',
+            foreground: '/projects/fortInnovate/thumb--foreground.png',
+            background: '/projects/fortInnovate/thumb--background.png',
         },
         client: 'USAA',
         title: 'Fort Innovate',
@@ -33,7 +35,11 @@ const projects = [
         tags: ['Web Development', 'Higher Ed'],
         thumbnail: {
             src: '/projects/yale/thumb.png',
-            alt: 'Google Logo',
+            alt: 'Yale Logo',
+            foreground: '/projects/yale/thumb--foreground.png',
+            background: '/projects/yale/thumb--background.png',
+            foregroundScaleOverride: 1.3,
+            backgroundScaleOverride: 1.1
         },
         spotlight: {
             src: '/projects/yale/spotlight.png',
@@ -52,8 +58,14 @@ const projects = [
         href: {destination: 'https://mydestinationmatch.com', text: 'Visit Site'},
         tags: ['Game Development', 'Web Development', 'Experiential'],
         thumbnail: {
-        src: '/projects/destinationMatch/thumb.png',
-        alt: 'Monochrome map of Marriott Bonvoy destination locations.',
+            src: '/projects/destinationMatch/thumb.png',
+            alt: 'Monochrome map of Marriott Bonvoy destination locations.',
+            foreground: '/projects/destinationMatch/thumb--foreground.png',
+            background: '/projects/destinationMatch/thumb--background.png',
+            reverseZoom: true,
+            transformOrigin: "66% 76%",
+            foregroundScaleOverride: 1.5,
+            backgroundScaleOverride: 1.1
         },
         client: 'Marriott',
         title: 'Destination Match',
@@ -70,6 +82,8 @@ const projects = [
         thumbnail: {
             src: '/projects/brownsFridge/thumb.png',
             alt: 'Mini-fridge with Cleveland Browns and Bud Light branding.',
+            foreground: '/projects/brownsFridge/thumb--foreground.png',
+            background: '/projects/brownsFridge/thumb--background.png',
         },
         client: 'Bud Light',
         title: 'Victory Fridge',
@@ -83,8 +97,11 @@ const projects = [
         themeColor: '#d5d5d5',
         tags: ['Web Development'],
         thumbnail: {
-        src: '/projects/spAndMe/thumb.png',
-        alt: 'SP and Me logo with radar chart.',
+            src: '/projects/spAndMe/thumb.png',
+            alt: 'SP and Me logo with radar chart.',
+            foreground: '/projects/spAndMe/thumb--foreground.png',
+            background: '/projects/spAndMe/thumb--background.png',
+            foregroundScaleOverride: 1.3
         },
         spotlight: {
             src: '/projects/spAndMe/spotlight.png',
@@ -102,8 +119,12 @@ const projects = [
         themeColor: '#b41f3a',
         tags: ['Game Development', 'Experiential'],
         thumbnail: {
-        src: '/projects/artOfInnovation/thumb.png',
-        alt: 'Sketch of Marriott Art of Innovation wall design',
+            src: '/projects/artOfInnovation/thumb.png',
+            alt: 'Sketch of Marriott Art of Innovation wall design',
+            foreground: '/projects/artOfInnovation/thumb--foreground.png',
+            background: '/projects/artOfInnovation/thumb--background.png',
+            foregroundScaleOverride: 1.15,
+            backgroundScaleOverride: 1.1
         },
         spotlight: {
             src: '/projects/artOfInnovation/spotlight.png',
@@ -124,6 +145,11 @@ const projects = [
         thumbnail: {
             src: '/projects/mascotDash/thumb.png',
             alt: 'Three pixel art US military mascots.',
+            foreground: '/projects/mascotDash/thumb--foreground.png',
+            background: '/projects/mascotDash/thumb--background.png',
+            foregroundScaleOverride: 1.03,
+            backgroundScaleOverride: 1.2,
+            transformOrigin: "50% 100%"
         },
         spotlight: {
             src: '/projects/mascotDash/spotlight.png',
@@ -143,6 +169,8 @@ const projects = [
         thumbnail: {
             src: '/projects/overwatchMVP/thumb.png',
             alt: 'Overwatch logo.',
+            foreground: '/projects/overwatchMVP/thumb--foreground.png',
+            background: '/projects/overwatchMVP/thumb--background.png',
         },
         client: 'T-Mobile',
         title: 'Overwatch MVP',
@@ -159,6 +187,8 @@ const projects = [
         thumbnail: {
             src: '/projects/usd/thumb.png',
             alt: 'Website header that reads "Find Your Horizon".',
+            foreground: '/projects/usd/thumb--foreground.png',
+            background: '/projects/usd/thumb--background.png',
         },
         spotlight: {
             src: '/projects/usd/spotlight.png',

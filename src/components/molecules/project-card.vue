@@ -40,7 +40,13 @@
                 >
                 </ProjectLabel>
             </div> -->
-            <img class="project-card__image" :src="project.thumbnail.src" :alt="project.thumbnail.alt">
+            <template v-if="project.thumbnail.foreground && project.thumbnail.background">
+                <img :class="'project-card__image project-card__image--background' + (project.thumbnail.reverseZoom ? ' reverse' : '')" :src="project.thumbnail.background" :alt="project.thumbnail.alt" :style="((project.thumbnail.transformOrigin) ? 'transform-origin: ' + project.thumbnail.transformOrigin : '') + ((project.thumbnail.backgroundScaleOverride) ? '; --backgroundZoom: ' + project.thumbnail.backgroundScaleOverride : '')">
+                <img :class="'project-card__image project-card__image--foreground' + (project.thumbnail.reverseZoom ? ' reverse' : '')" :src="project.thumbnail.foreground" :alt="project.thumbnail.alt" :style="((project.thumbnail.transformOrigin) ? 'transform-origin: ' + project.thumbnail.transformOrigin : '') + ((project.thumbnail.backgroundScaleOverride) ? '; --foregroundZoom: ' + project.thumbnail.foregroundScaleOverride : '')">
+            </template>
+            <template v-else>
+                <img class="project-card__image" :src="project.thumbnail.src" :alt="project.thumbnail.alt">
+            </template>
         </div>
         <h4 class="project-card__client">{{project.client}}</h4>
         <h3 class="project-card__title">{{project.title}}</h3>
@@ -62,6 +68,8 @@
         transition: transform .25s, box-shadow .25s;
         box-shadow: 0px 0px 0px var(--boxBackground);
         border-radius: 20px;
+        --backgroundZoom: 1.2;
+        --foregroundZoom: 1.1;
     }
 
     .project-card__image-wrapper{
@@ -110,6 +118,23 @@
         transform: translateY(-20px);
         box-shadow: 0px 20px 0px var(--boxBackground);
         transition-delay: 0s;
+    }
+
+    .project-card__image{
+        transform: scale(1);
+        transition: transform .25s;
+    }
+
+    .project-card__outer:hover .project-card__image{
+        transform: scale(var(--foregroundZoom));
+    }
+
+    .project-card__outer:hover .project-card__image--foreground{
+        transform: scale(var(--foregroundZoom));
+    }
+
+    .project-card__outer:hover .project-card__image--background{
+        transform: scale(var(--backgroundZoom));
     }
 
     @media(min-width: 1200px){

@@ -105,9 +105,15 @@
     }
 
     @media(max-width: 380px){
+        .project-stats__stat-header{
+            font-size: 80px;
+            line-height: 80px;
+        }
+
         .project-stats__stat-header--small{
             font-size: 40px;
             line-height: 45px;
         }
+
     }
 </style>

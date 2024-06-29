@@ -44,6 +44,8 @@
                     v-for="(tag) in project.tags"
                     :key="tag"
                     :text="tag"
+                    :forceHover="true"
+                    :isClickable="false"
                 >
                 </ProjectLabel>
             </div>

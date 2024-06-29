@@ -8,12 +8,17 @@
             type: Boolean,
             required: false,
             default: false
+        },
+        isClickable: {
+            type: Boolean,
+            required: false,
+            default: true
         }
     })
 </script>
 
 <template>
-    <button type="button" :class="forceHover ? 'project-label project-label--active' : 'project-label'">
+    <button type="button" :class="(forceHover ? 'project-label project-label--active' : 'project-label') + (isClickable ? ' is-clickable' : '')">
         {{text}}
     </button>
 </template>
@@ -29,8 +34,11 @@
         text-transform: uppercase;
         display: inline-block;
         background-color: #0c0c20;
-        cursor: pointer;
         transition: color .25s, background-color .25s;
+    }
+
+    .project-label.is-clickable{
+        cursor: pointer;
     }
 
     .project-label:hover, .project-label--active{
